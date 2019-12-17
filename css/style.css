@@ -56,6 +56,13 @@ nav {
    padding-bottom: 3px;
  }
 
+h2{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+
+}
+
 h3{
   font-size:13px;
 }
