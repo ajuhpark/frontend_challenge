@@ -55,9 +55,14 @@ nav {
 }
 
 .content{
+<<<<<<< HEAD
   position:relative;
   top: 18px;
   margin-left: 25px;
+=======
+  margin-left: 10%;
+
+>>>>>>> parent of 994ca9b... Centered Eastbound.
 }
 
 .container h1{
