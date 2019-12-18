@@ -42,17 +42,17 @@ nav {
 
 .direction {
 
-  /* padding-top: 50px; */
+  padding-top: 50px;
   /* width: 50%; */
   height: 66px;
   width: 420px;
   /* border-bottom: 1.5px solid #c0c0c0; */
   border-bottom: 1.5px solid white;
 }
-/* .location{
+.location{
   height:26px;
   width: 420px;
-  border-bottom: 1.5px solid #c0c0c0; */
+  border-bottom: 1.5px solid #c0c0c0;
 
 }
 .content{
