@@ -12,7 +12,7 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
-  background-color: #dfdfe1
+  background-color: #dfdfe1;
   /*this bar should be 75px height*/
 
 }
@@ -41,13 +41,18 @@ nav {
 }
 
 .direction {
-  padding-top: 50px;
-  width: 50%;
+
+  /* padding-top: 50px; */
+  /* width: 50%; */
+  height: 66px;
+  width: 420px;
+  /* border-bottom: 1.5px solid #c0c0c0; */
+  border-bottom: 1.5px solid white;
 }
-.location{
+/* .location{
   height:26px;
   width: 420px;
-  border-bottom: 1.5px solid #c0c0c0;
+  border-bottom: 1.5px solid #c0c0c0; */
 
 }
 .content{
@@ -75,6 +80,7 @@ h2{
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
+  color:blue;
 
   position: relative;
   top: 50%;
