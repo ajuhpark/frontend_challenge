@@ -88,31 +88,6 @@ h3{
   font-size:13px;
 }
 
-.bus-lines {
-  background-color: white;
-  height: 60px;
-  border-color: red;
-  border-style: solid;
-  border-width: 2px;
-}
-
-.bus-number-rectangle {
-  width: 25px;
-  height: 19px;
-  background-color: #C96931;
-  border-radius: 3px;
-  margin-left: 10%;
-
-  transform: translate(-50%, -50%);
-  float:left;
-
-}
-
-h4{
-  font-size: 16px;
-  color: red;
-}
-
 .bus-icon {
   height:20px;
   width: 20px;
@@ -121,10 +96,59 @@ h4{
   top: 50%;
   transform: translate(-50%, -50%);
   float:left;
-  border-color: red;
+  /* border-color: red;
   border-style: solid;
-  border-width: 2px;
+  border-width: 2px; */
 }
+
+.bus-lines {
+  background-color: white;
+  height: 60px;
+  /* border-color: red;
+  border-style: solid;
+  border-width: 2px; */
+}
+
+.bus-number-icon {
+  width: 35px;
+  height: 19px;
+  float: left;
+
+}
+
+.bus-line-rectangle-1 {
+  width: 25px;
+  height: 19px;
+  background-color: #C96931;
+  border-radius: 3px;
+
+  /* border-color: red; */
+  /* border-style: solid;
+  border-width: 2px; */
+  z-index: 1;
+  position: relative;
+  top: 100%;
+
+}
+
+.bus-number-text {
+  position:relative;
+  top: 113%;
+  z-index: 2;
+  float:left;
+  left: 8%;
+}
+
+h4{
+  font-size: 16px;
+  color: white;
+  /* border-color: red;
+  border-style: solid;
+  border-width: 2px; */
+  font-family: "roboto";
+}
+
+
 
 a:link { color: white; } /* unvisited */
 a:visited { color:#0070BA; } /* visited */
