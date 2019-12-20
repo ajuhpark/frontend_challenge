@@ -25,6 +25,7 @@ nav {
   height: 50px;
   background-color: black;
   /*this bar should be 30px height*/
+  position: sticky;
 }
 
 .arrow-left{
@@ -41,8 +42,10 @@ nav {
 }
 
 .direction {
-  padding-top: 50px;
-  width: 50%;
+  /* padding-top: 50px; */
+  width: 100%;
+  height: 26px;
+  /* float:left; */
 }
 .location{
   height:26px;
@@ -122,7 +125,7 @@ h3{
 }
 
 .bus-line-rectangle-1 {
-  width: 25px;
+  width: 23px;
   height: 19px;
   background-color: #C96931;
   border-radius: 3px;
@@ -133,7 +136,20 @@ h3{
   z-index: 1;
   position: relative;
   top: 100%;
+}
 
+.bus-line-rectangle-2{
+  width: 32px;
+  height: 19px;
+  background-color: #133B5A;
+  border-radius: 3px;
+
+  /* border-color: red; */
+  /* border-style: solid;
+  border-width: 2px; */
+  z-index: 1;
+  position: relative;
+  top: 100%;
 }
 
 .bus-number-text {
@@ -141,7 +157,7 @@ h3{
   top: 113%;
   z-index: 2;
   float:left;
-  left: 11%;
+  left: 10%;
 }
 
 .bus-line-text {
@@ -151,12 +167,14 @@ h3{
 }
 
 h4{
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   /* border-color: red;
   border-style: solid;
   border-width: 2px; */
   font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
 }
 
 h5{
