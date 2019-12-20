@@ -152,6 +152,20 @@ h3{
   top: 100%;
 }
 
+.bus-line-rectangle-3{
+  width: 16px;
+  height: 19px;
+  background-color: #133B5A;
+  border-radius: 3px;
+
+  /* border-color: red; */
+  /* border-style: solid;
+  border-width: 2px; */
+  z-index: 1;
+  position: relative;
+  top: 100%;
+}
+
 .bus-number-text {
   position:relative;
   top: 113%;
