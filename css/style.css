@@ -107,12 +107,17 @@ h3{
   /* border-color: red;
   border-style: solid;
   border-width: 2px; */
+  position: relative;
+  border-bottom: 1px solid #c0c0c0;
 }
 
 .bus-number-icon {
   width: 35px;
   height: 19px;
   float: left;
+  position: relative;
+  top: 2%;
+
 
 }
 
@@ -136,7 +141,13 @@ h3{
   top: 113%;
   z-index: 2;
   float:left;
-  left: 8%;
+  left: 11%;
+}
+
+.bus-line-text {
+  position:relative;
+  top: 35%;
+  left: 2%;
 }
 
 h4{
@@ -148,7 +159,27 @@ h4{
   font-family: "roboto";
 }
 
+h5{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+}
 
+.bus-frequency{
+  position:relative;
+  top: 6%;
+  left: 55%;
+}
+
+h6{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+}
 
 a:link { color: white; } /* unvisited */
 a:visited { color:#0070BA; } /* visited */
