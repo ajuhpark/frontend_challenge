@@ -236,5 +236,5 @@ h6{
 
 a:link { color: white; } /* unvisited */
 a:visited { color:#0070BA; } /* visited */
-.location:hover {background-color: #ffffcc; } /* mouse over */
-a:active { color:#0070BD; } /* selected */
+/* .location:hover {background-color: #ffffcc; } /* mouse over */ */
+/* a:active { color:#0070BD; } /* selected */ */
