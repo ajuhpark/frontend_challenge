@@ -214,9 +214,9 @@ h5{
 .bus-frequency{
   display:table;
   position:relative;
-  margin-left: 73%;
+  margin-left: 68%;
   overflow-wrap: normal;
-  width: 80px;
+  width: 100px;
   height: 30px;
   top: -5%;
 }
